@@ -15,21 +15,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+    return view('app.dashboard');
+})->name('dashboard');
 
 Route::get('/contact', function () {
-    return view('contact');
-})->middleware(['auth', 'verified'])->name('contact');
+    return view('app.contact');
+})->name('contact');
 
 Route::get('/penyewaan', function () {
-    return view('penyewaan');
-})->middleware(['auth', 'verified'])->name('penyewaan');
+    return view('app.penyewaan');
+})->name('penyewaan');
 
+//admin
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+})->name('dashboard');
+
+Route::get('/user', function () {
+    return view('admin.user');
+})->name('user');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -37,4 +41,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

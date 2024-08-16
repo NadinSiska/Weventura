@@ -48,7 +48,7 @@
           </div>
           <div
             class="hero__item set-bg"
-            data-setbg="img/hero/banner2.svg"
+            data-setbg="app/img/hero/banner2.svg"
           ></div>
         </div>
       </div>
@@ -64,7 +64,7 @@
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="img/categories/cat-1.jpg"
+              data-setbg="app/img/categories/cat-1.jpg"
               style="border-radius: 15px"
             >
               <h5><a href="#">Fresh Fruit</a></h5>
@@ -73,7 +73,7 @@
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="img/categories/cat-2.jpg"
+              data-setbg="app/img/categories/cat-2.jpg"
             >
               <h5><a href="#">Dried Fruit</a></h5>
             </div>
@@ -81,7 +81,7 @@
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="img/categories/cat-3.jpg"
+              data-setbg="app/img/categories/cat-3.jpg"
             >
               <h5><a href="#">Vegetables</a></h5>
             </div>
@@ -89,7 +89,7 @@
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="img/categories/cat-4.jpg"
+              data-setbg="app/img/categories/cat-4.jpg"
             >
               <h5><a href="#">drink fruits</a></h5>
             </div>
@@ -97,7 +97,7 @@
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="img/categories/cat-5.jpg"
+              data-setbg="app/img/categories/cat-5.jpg"
             >
               <h5><a href="#">drink fruits</a></h5>
             </div>
@@ -132,7 +132,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-1.jpg"
+              data-setbg="app/img/featured/feature-1.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -156,7 +156,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-2.jpg"
+              data-setbg="app/img/featured/feature-2.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -180,7 +180,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-3.jpg"
+              data-setbg="app/img/featured/feature-3.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -204,7 +204,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-4.jpg"
+              data-setbg="app/img/featured/feature-4.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -228,7 +228,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-5.jpg"
+              data-setbg="app/img/featured/feature-5.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -252,7 +252,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-6.jpg"
+              data-setbg="app/img/featured/feature-6.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -276,7 +276,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-7.jpg"
+              data-setbg="app/img/featured/feature-7.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -300,7 +300,7 @@
           <div class="featured__item">
             <div
               class="featured__item__pic set-bg"
-              data-setbg="img/featured/feature-8.jpg"
+              data-setbg="app/img/featured/feature-8.jpg"
             >
               <ul class="featured__item__pic__hover">
                 <li>
@@ -331,12 +331,12 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="banner__pic">
-            <img src="img/banner/banner-1.jpg" alt="" />
+            <img src="app/img/banner/banner-1.jpg" alt="" />
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="banner__pic">
-            <img src="img/banner/banner-2.jpg" alt="" />
+            <img src="app/img/banner/banner-2.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -355,7 +355,7 @@
               <div class="latest-prdouct__slider__item">
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-1.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-1.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -364,7 +364,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-2.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-2.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -373,7 +373,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-3.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-3.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -384,7 +384,7 @@
               <div class="latest-prdouct__slider__item">
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-1.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-1.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -393,7 +393,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-2.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-2.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -402,7 +402,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-3.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-3.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -420,7 +420,7 @@
               <div class="latest-prdouct__slider__item">
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-1.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-1.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -429,7 +429,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-2.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-2.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -438,7 +438,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-3.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-3.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -449,7 +449,7 @@
               <div class="latest-prdouct__slider__item">
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-1.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-1.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -458,7 +458,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-2.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-2.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -467,7 +467,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-3.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-3.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -485,7 +485,7 @@
               <div class="latest-prdouct__slider__item">
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-1.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-1.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -494,7 +494,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-2.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-2.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -503,7 +503,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-3.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-3.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -514,7 +514,7 @@
               <div class="latest-prdouct__slider__item">
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-1.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-1.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -523,7 +523,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-2.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-2.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -532,7 +532,7 @@
                 </a>
                 <a href="#" class="latest-product__item">
                   <div class="latest-product__item__pic">
-                    <img src="img/latest-product/lp-3.jpg" alt="" />
+                    <img src="app/img/latest-product/lp-3.jpg" alt="" />
                   </div>
                   <div class="latest-product__item__text">
                     <h6>Crab Pool Security</h6>
@@ -562,7 +562,7 @@
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="blog__item">
             <div class="blog__item__pic">
-              <img src="img/blog/blog-1.jpg" alt="" />
+              <img src="app/img/blog/blog-1.jpg" alt="" />
             </div>
             <div class="blog__item__text">
               <ul>
@@ -580,7 +580,7 @@
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="blog__item">
             <div class="blog__item__pic">
-              <img src="img/blog/blog-2.jpg" alt="" />
+              <img src="app/img/blog/blog-2.jpg" alt="" />
             </div>
             <div class="blog__item__text">
               <ul>
@@ -598,7 +598,7 @@
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="blog__item">
             <div class="blog__item__pic">
-              <img src="img/blog/blog-3.jpg" alt="" />
+              <img src="app/img/blog/blog-3.jpg" alt="" />
             </div>
             <div class="blog__item__text">
               <ul>

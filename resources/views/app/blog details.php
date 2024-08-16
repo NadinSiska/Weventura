@@ -64,7 +64,7 @@
     <!-- Hero Section End -->
 
     <!-- Blog Details Hero Begin -->
-    <section class="blog-details-hero set-bg" data-setbg="img/blog/details/details-hero.jpg">
+    <section class="blog-details-hero set-bg" data-setbg="app/img/blog/details/details-hero.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -109,7 +109,7 @@
                             <div class="blog__sidebar__recent">
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/sr-1.jpg" alt="">
+                                        <img src="app/img/blog/sidebar/sr-1.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
                                         <h6>09 Kinds Of Vegetables<br /> Protect The Liver</h6>
@@ -118,7 +118,7 @@
                                 </a>
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/sr-2.jpg" alt="">
+                                        <img src="app/img/blog/sidebar/sr-2.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
                                         <h6>Tips You To Balance<br /> Nutrition Meal Day</h6>
@@ -127,7 +127,7 @@
                                 </a>
                                 <a href="#" class="blog__sidebar__recent__item">
                                     <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/sidebar/sr-3.jpg" alt="">
+                                        <img src="app/img/blog/sidebar/sr-3.jpg" alt="">
                                     </div>
                                     <div class="blog__sidebar__recent__item__text">
                                         <h6>4 Principles Help You Lose <br />Weight With Vegetables</h6>
@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-lg-8 col-md-7 order-md-1 order-1">
                     <div class="blog__details__text">
-                        <img src="img/blog/details/details-pic.jpg" alt="">
+                        <img src="app/img/blog/details/details-pic.jpg" alt="">
                         <p>Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
                             dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit
                             aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur
@@ -172,7 +172,7 @@
                             <div class="col-lg-6">
                                 <div class="blog__details__author">
                                     <div class="blog__details__author__pic">
-                                        <img src="img/blog/details/details-author.jpg" alt="">
+                                        <img src="app/img/blog/details/details-author.jpg" alt="">
                                     </div>
                                     <div class="blog__details__author__text">
                                         <h6>Michael Scofield</h6>
@@ -217,7 +217,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="img/blog/blog-1.jpg" alt="">
+                            <img src="app/img/blog/blog-1.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -232,7 +232,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="img/blog/blog-2.jpg" alt="">
+                            <img src="app/img/blog/blog-2.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -247,7 +247,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="img/blog/blog-3.jpg" alt="">
+                            <img src="app/img/blog/blog-3.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -271,7 +271,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.svg" alt=""></a>
+                            <a href="./index.html"><img src="app/img/logo.svg" alt=""></a>
                         </div>
                         <ul>
                             <li>Address: 60-49 Road 11378 New York</li>
@@ -324,7 +324,7 @@
                         <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                        <div class="footer__copyright__payment"><img src="app/img/payment-item.png" alt=""></div>
                     </div>
                 </div>
             </div>
