@@ -61,49 +61,48 @@
     <div class="container">
       
       <div class="section-title ">
-        <h2>Our Rental Product</h2>
+        <h2>Popular Rental</h2>
       </div>
       <div class="row">
         <div class="categories__slider owl-carousel">
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="app/img/categories/cat-1.jpg"
-              style="border-radius: 15px"
+              data-setbg="app/img/categories/cat-1.png" style="background-color: rgb(227, 236, 225); padding:30px"
             >
-              <h5><a href="#">Fresh Fruit</a></h5>
+              <h5><a href="#">Nesting</a></h5>
             </div>
           </div>
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="app/img/categories/cat-2.jpg"
+              data-setbg="app/img/categories/cat-2.png" style="background-color: rgb(227, 236, 225); padding:30px"
             >
-              <h5><a href="#">Dried Fruit</a></h5>
+              <h5><a href="#">Sepatu Outdoor</a></h5>
             </div>
           </div>
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="app/img/categories/cat-3.jpg"
+              data-setbg="app/img/categories/cat-3.png" style="background-color: rgb(227, 236, 225); padding:30px"
             >
-              <h5><a href="#">Vegetables</a></h5>
+              <h5><a href="#">Carrier</a></h5>
             </div>
           </div>
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="app/img/categories/cat-4.jpg"
+              data-setbg="app/img/categories/cat-4.png" style="background-color: rgb(227, 236, 225); padding:30px"
             >
-              <h5><a href="#">drink fruits</a></h5>
+              <h5><a href="#">Tenda</a></h5>
             </div>
           </div> 
           <div class="col-lg-3">
             <div
               class="categories__item set-bg"
-              data-setbg="app/img/categories/cat-5.jpg"
+              data-setbg="app/img/categories/cat-5.png " style="background-color: rgb(227, 236, 225); padding:30px"
             >
-              <h5><a href="#">drink fruits</a></h5>
+              <h5><a href="#">Trekking Pole</a></h5>
             </div>
           </div>
         </div>
@@ -116,21 +115,22 @@
   <section class="featured spad">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12"> 
+          
           <div class="section-title">
-            <h2>Featured Product</h2>
+            <h2>Our Rental Product</h2>
           </div>
           <div class="featured__controls">
             <ul>
               <li class="active" data-filter="*">All</li>
-              <li data-filter=".oranges">Oranges</li>
-              <li data-filter=".fresh-meat">Fresh Meat</li>
-              <li data-filter=".vegetables">Vegetables</li>
-              <li data-filter=".fastfood">Fastfood</li>
+              <li data-filter=".oranges">Camping</li>
+              <li data-filter=".fresh-meat">Pakaian</li>
+              <li data-filter=".vegetables">Alat</li>
+              <li data-filter=".fastfood">Olahraga</li>
             </ul>
           </div>
         </div>
-      </div>
+      </div>  
       <div class="row featured__filter">
         <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
           <div class="featured__item">

@@ -1629,14 +1629,17 @@ ol {
 
 .product-details {
 	padding-top: 80px;
+	
 }
 
 .product__details__pic__item {
 	margin-bottom: 20px;
+	
 }
 
 .product__details__pic__item img {
 	min-width: 100%;
+	background-color: #111111;
 }
 
 .product__details__pic__slider img {
