@@ -165,9 +165,9 @@
               <a href="./index.html"><img src="app/img/logo.svg" alt="" /></a>
             </div>
             <ul>
-              <li>Address: 60-49 Road 11378 New York</li>
-              <li>Phone: +65 11.188.888</li>
-              <li>Email: hello@colorlib.com</li>
+              <li>Address: Jl. Tanimbar nomor 22</li>
+              <li>Phone: +62 82245509682</li>
+              <li>Email: weventura@gmail.com</li>
             </ul>
           </div>
         </div>

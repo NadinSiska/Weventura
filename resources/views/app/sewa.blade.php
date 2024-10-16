@@ -112,7 +112,7 @@
                         <div class="col-lg-8 col-md-6">
                             <div class="checkout__input">
                                 <p>Durasi Sewa<span>*</span></p>
-                                <!--input type="text" placeholder="Alamat Jalan"-->
+                                <input type="text"> <!--placeholder="Alamat Jalan"-->
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-6">

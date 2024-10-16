@@ -404,6 +404,11 @@
       </div>
     </div>
   </section>
-  <!-- Blog Section End -->
+   <!--Blog Section End --> 
+
+  <!-- Review Section Begin -->
+
+
+<!-- Review Section End -->
 
   @endsection

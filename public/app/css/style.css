@@ -87,7 +87,7 @@ ol {
 .section-title h2 {
 	color: #5c5042;
 	font-weight: 700;
-	position: relative;
+	position: relative; 
 }
 
 .section-title h2:after {
@@ -2178,7 +2178,6 @@ ol {
 	content: "";
 	opacity: 0;
 }
-
 
 .checkout__order {
 	background: #60be75;
