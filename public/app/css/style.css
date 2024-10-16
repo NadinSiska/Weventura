@@ -746,8 +746,17 @@ ol {
 	display: block;
 }
 
+.categories__item {
+	background-size: 220px 220px; /* adjust the width and height to your desired ratio */
+	background-position: 50% 9%;
+  }
+
 .categories__slider .col-lg-3 {
 	max-width: 100%;
+}
+
+.header__menu ul.menu-header li a{
+	font-size: 14px;
 }
 
 .categories__slider.owl-carousel .owl-nav button {
@@ -1691,7 +1700,7 @@ ol {
 .product__details__text .heart-icon {
 	display: inline-block;
 	font-size: 16px;
-	color: #6f6f6f;
+	color: #ebebeb  ;
 	padding: 13px 16px 13px;
 	background: #60be75;
 }
@@ -2116,7 +2125,7 @@ ol {
 }
 
 .checkout__input input::placeholder {
-	color: #b2b2b2;
+	color:   #2d2c2c;
 }
 
 .checkout__input__checkbox {
@@ -2144,7 +2153,6 @@ ol {
 .checkout__input__checkbox label input:checked ~ .checkmark:after {
 	opacity: 1;
 }
-
 .checkout__input__checkbox label .checkmark {
 	position: absolute;
 	left: 0;
@@ -2170,6 +2178,7 @@ ol {
 	content: "";
 	opacity: 0;
 }
+
 
 .checkout__order {
 	background: #60be75;

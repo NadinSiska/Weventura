@@ -22,17 +22,13 @@ Route::get('/contact', function () {
     return view('app.contact');
 })->name('contact');
 
+Route::get('/sewa', function () {
+    return view('app.sewa');
+})->name('sewa');
+
 Route::get('/pesan', function () {
     return view('app.pesan');
 })->name('pesan');
-
-Route::get('/penyewaan', function () {
-    return view('app.penyewaan');
-})->name('penyewaan');
-
-Route::get('/daftar', function () {
-    return view('app.daftar');
-})->name('daftar');
 
 //admin
 Route::get('/dashboard', function () {
