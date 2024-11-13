@@ -336,7 +336,7 @@
   <!-- Latest Product Section Begin --> 
   <!-- Latest Product Section End -->
 
-  <!-- Blog Section Begin -->
+  <!-- Blog Section Begin 
   <section class="from-blog spad"> 
     <div class="container">
       <div class="row">
@@ -404,11 +404,62 @@
       </div>
     </div>
   </section>
-   <!--Blog Section End --> 
+   <Blog Section End --> 
+   
 
   <!-- Review Section Begin -->
-
-
+<section class="categories mt-5 ">
+  <div class="container">
+    
+    <div class="section-title ">
+      <h2>REVIEW</h2>
+    </div>
+    <div class="row">
+      <div class="categories__slider owl-carousel">
+        <div class="col-lg-3">
+          <div
+            class="categories__item set-bg"
+            data-setbg="app/img/categories/cat-1.png" style="background-color: rgb(227, 236, 225); padding:30px"
+          >
+            <h5><a href="#">Nesting</a></h5>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="categories__item set-bg"
+            data-setbg="app/img/categories/cat-2.png" style="background-color: rgb(227, 236, 225); padding:30px"
+          >
+            <h5><a href="#">Sepatu Outdoor</a></h5>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="categories__item set-bg"
+            data-setbg="app/img/categories/cat-3.png" style="background-color: rgb(227, 236, 225); padding:30px"
+          >
+            <h5><a href="#">Carrier</a></h5>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="categories__item set-bg"
+            data-setbg="app/img/categories/cat-4.png" style="background-color: rgb(227, 236, 225); padding:30px"
+          >
+            <h5><a href="#">Tenda</a></h5>
+          </div>
+        </div> 
+        <div class="col-lg-3">
+          <div
+            class="categories__item set-bg"
+            data-setbg="app/img/categories/cat-5.png " style="background-color: rgb(227, 236, 225); padding:30px"
+          >
+            <h5><a href="#">Trekking Pole</a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Review Section End -->
 
   @endsection

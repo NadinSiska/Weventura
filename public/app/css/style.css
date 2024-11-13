@@ -3456,4 +3456,30 @@ ol {
 	.blog__details__hero__text h2 {
 		font-size: 24px;
 	}
+
+}.input-file {
+    position: relative;
+    display: inline-block;
+}
+
+/* .input-file input[type="file"] {
+    display: none;
+} */
+.btn-upload {
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 8px 20px; /* Padding tombol */
+    border: none; /* Menghapus border default */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    cursor: pointer; /* Mengubah kursor saat hover */
+}
+
+.btn-upload:hover {
+    background-color: #3e8e41; /* Warna latar belakang saat hover */
+}
+
+.file-name {
+    margin-left: 10px; /* Jarak antara nama file dan tombol */
+    font-size: 14px; /* Ukuran font nama file */
+    color: #666; /* Warna teks nama file */
 }
