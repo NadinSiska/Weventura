@@ -6,7 +6,7 @@
 
 <!-- Header Section End -->
 
-    <!-- Hero Section Begin -->
+    <!-- Hero Section Begin 
     <section class="hero hero-normal">
         <div class="container">
             <div class="row">
@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-    <!-- Hero Section End -->
+     Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="app/img/breadcrumb.jpg" style="background-image: url(&quot;app/img/breadcrumb.jpg&quot;);">
@@ -109,22 +109,6 @@
     </section>
     <!-- Contact Section End -->
 
-    <!-- Map Begin -->
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.0881403050703!2d112.62473041023995!3d-7.98983429200248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6281b75ea5485%3A0x90fd5c6fcedf6acf!2sSekolah%20Menengah%20Kejuruan%20Negeri%204%20Malang!5e0!3m2!1sen!2sid!4v1726556283895!5m2!1sen!2sid" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <div class="map-inside">
-            <i class="icon_pin"></i>
-            <div class="inside-widget">
-                <h4>Rental Weventura</h4>
-                <ul>
-                    <li>Phone: +62 822 4550 9682</li>
-                    <li>Add: Jl. Tanimbar nomor 22</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- Map End -->
-
     <!-- Contact Form Begin -->
     <div class="contact-form spad">
         <div class="container">
@@ -152,5 +136,22 @@
         </div>
     </div>
     <!-- Contact Form End -->
+
+     <!-- Map Begin -->
+     <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.0881403050703!2d112.62473041023995!3d-7.98983429200248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6281b75ea5485%3A0x90fd5c6fcedf6acf!2sSekolah%20Menengah%20Kejuruan%20Negeri%204%20Malang!5e0!3m2!1sen!2sid!4v1726556283895!5m2!1sen!2sid" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="map-inside">
+            <i class="icon_pin"></i>
+            <div class="inside-widget">
+                <h4>Rental Weventura</h4>
+                <ul>
+                    <li>Phone: +62 822 4550 9682</li>
+                    <li>Add: Jl. Tanimbar nomor 22</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
 
     @endsection

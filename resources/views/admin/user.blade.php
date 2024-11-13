@@ -11,11 +11,7 @@
         <div class="col">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Zero Configuration</h5>
-                    <p>DataTables has most features enabled by default, so all you need to do to use it
-                        with your own tables is to call the construction function:
-                        <code>$().DataTable();</code>.
-                    </p>
+                    <h5 class="card-title">User</h5>
                     <table id="zero-conf" class="display" style="width:100%">
                         <thead>
                             <tr>

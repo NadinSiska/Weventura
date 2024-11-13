@@ -14,6 +14,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
+//coba middleware dari cara fajar
+Route::get('/', function () {
+    return view('welcome');
+})->middleware('auth');
+
+Route::middleware('only_guest')->group(function() {
+    Route::get('login', [AuthController::class, 'login'])->name('login');
+    Route::get('login', [AuthController::class, 'authenticating']);
+    Route::get('register', [AuthController::class, 'register']);
+    Route::get('register', [AuthController::class, 'registerProcess']);
+});
+
+Route::middleware('auth')->group(function(){
+    Route::get('logout', [AuthController::class, 'logout']);
+    Route::get('dasboard', [DashboardController::class, 'index'])->middleware('only_admin');
+    Route::get('profile', [UserController::class, 'profile'])->middleware('only_client');
+    Route::get('books', [BookController::class,'index']);
+});
+
+//end
+*/
+
 Route::get('/', function () {
     return view('app.dashboard');
 })->name('dashboard');
@@ -31,13 +54,17 @@ Route::get('/pesan', function () {
 })->name('pesan');
 
 //admin
-Route::get('/dashboard', function () {
+Route::get('admin/dashboard', function () {
     return view('admin.dashboard');
 })->name('dashboard');
 
-Route::get('/user', function () {
+Route::get('admin/user', function () {
     return view('admin.user');
 })->name('user');
+
+Route::get('admin/log', function () {
+    return view('admin.log');
+})->name('log');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
