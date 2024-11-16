@@ -3,6 +3,28 @@
 @section('title', 'Keranjang')
 
 @section('content')
+
+<style>
+    /* Tambahkan CSS di sini */
+    .gambar-container {
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .gambar {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+</style>
+
 <div class="container">
     <h3 style="text-align: center; font-weight: bold;">Keranjang Sewa Alat</h3>
     <table class="table">
@@ -20,7 +42,7 @@
                 <td>Tenda Camping</td>
                 <td>
                     <div class="gambar-container">
-                        <img src="app/keranjang/tenda.jpg" alt="Tenda Camping" class="gambar">
+                        <img src="app/img/keranjang/tenda.jpg" alt="Tenda Camping" class="gambar">
                     </div>
                 </td>
                 <td>Tenda ringan untuk 2-3 orang. Mudah dipasang.</td>
@@ -34,7 +56,7 @@
                 <td>Kursi Lipat</td>
                 <td>
                     <div class="gambar-container">
-                        <img src="app/keranjang/kursi.jpg" alt="Kursi Lipat" class="gambar">
+                        <img src="app/img/keranjang/kursi.jpg" alt="Kursi Lipat" class="gambar">
                     </div>
                 </td>
                 <td>Kursi lipat nyaman, cocok untuk camping.</td>
@@ -48,7 +70,7 @@
                 <td>Meja Lipat</td>
                 <td>
                     <div class="gambar-container">
-                        <img src="images/link-gambar-meja.jpg" alt="Meja Lipat" class="gambar">
+                        <img src="app/img/keranjang/meja.jpg" alt="Meja Lipat" class="gambar">
                     </div>
                 </td>
                 <td>Meja lipat praktis untuk piknik.</td>
@@ -62,7 +84,7 @@
                 <td>Sleeping Bag</td>
                 <td>
                     <div class="gambar-container">
-                        <img src="images/link-gambar-sleepingbag.jpg" alt="Sleeping Bag" class="gambar">
+                        <img src="app/img/keranjang/sleepingbag.jpg" alt="Sleeping Bag" class="gambar">
                     </div>
                 </td>
                 <td>Sleeping bag hangat untuk malam di luar.</td>

@@ -59,7 +59,7 @@
 
             <div class="section-title ">
                 <h2>Popular Rental</h2>
-            </div>
+            </div> 
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
