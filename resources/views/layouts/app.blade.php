@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" type="image/png" href="{{ asset('app/img/logo_only.svg') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <title>@yield('title')</title>
 
@@ -25,7 +26,7 @@
     <link rel="stylesheet" href="{{ asset('app/css/slicknav.min.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('app/css/style.css') }}" type="text/css" />
 </head>
-
+    
 <body>
     <!-- Page Preloder -->
     <div id="preloder">
@@ -147,7 +148,7 @@
                     <div class="header__cart">
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a href="{{ route('cart.index') }}"><i class="fa fa-shopping-bag"></i> <span>{{ count(session()->get('cart', [])) }}</span></a></li>
                         </ul>
                         <div class="header__cart__price">item: <span>$150.00</span></div>
                     </div>

@@ -3,5 +3,5 @@
 @section('title', 'Log Penyewaan')
 
 @section('content')
-Anjayyy Loggg
+Dashbboard Admin 
 @endsection
