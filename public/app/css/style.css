@@ -724,6 +724,7 @@ ol {
 .categories__item {
 	height: 270px;
 	position: relative;
+	border-radius: 5px; 
 }
 
 .categories__item h5 {
@@ -744,6 +745,7 @@ ol {
 	padding: 12px 0 10px;
 	background: #60be75;
 	display: block;
+	border-radius: 3px;
 }
 
 .categories__item {
@@ -916,6 +918,19 @@ ol {
 	color: #252525;
 	font-weight: 700;
 }
+
+.featured__item__pic {
+    background-color: #f0f0f0; /* Warna abu muda */
+    padding: 20px; /* Tambahkan padding untuk memberi jarak antara gambar dan latar belakang */
+    border-radius: 5px; /* Tambahkan border-radius untuk membuat sudut yang lebih halus */
+}
+
+.featured__item__pic img {
+    width: 100%; /* Pastikan gambar memenuhi lebar kontainer */
+    height: auto; /* Memastikan tinggi gambar otomatis sesuai dengan lebar */
+    display: block; /* Menghilangkan spasi di bawah gambar */
+}
+
 
 /*---------------------
   Latest Product
@@ -3598,19 +3613,52 @@ ol {
  }
 
 /*---------------------
-Keranjang Sewa
+  Keranjang Sewa
 -----------------------*/
-.sewa-semua {
-    background-color: #28a745; /* Warna hijau */
-    color: white; /* Warna teks putih */
-    border: none; /* Menghilangkan border */
-    padding: 10px 20px; /* Padding atas-bawah dan kiri-kanan */
-    font-size: 16px; /* Ukuran font */
-    cursor: pointer; /* Mengubah kursor saat hover */
-    border-radius: 5px; /* Membuat sudut tombol melengkung */
-    transition: background-color 0.3s; /* Efek transisi saat hover */
+.gambar-container {
+    width: 80px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 80px; /* Sesuaikan ukuran sesuai kebutuhan */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; /* Opsional: menambahkan border */
+    border-radius: 5px;/* Opsional: menambahkan border radius */
+    }
+
+.gambar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Agar gambar tetap proporsional tanpa terdistorsi */
+    object-position: center; /* Pusatkan gambar */
+	}
+
+	.btn-primary {
+		background-color: #60be75; /* Mengubah warna latar belakang menjadi hijau */
+		border-color: #60be75; /* Mengubah warna border menjadi hijau */
+		color: white; /* Mengubah warna teks menjadi putih */
+	}
+	.btn-primary:hover {
+		background-color: #49a45c; /* Mengubah warna latar belakang menjadi hijau */
+		border: none;
+	}
+	.btn-success-custom{
+		background-color: #60be75;
+		color: white;
+	}
+    
+/*---------------------
+  Header icon
+-----------------------*/
+.header__cart ul {
+    list-style-type: none; /* Menghapus bullet dari daftar */
+    padding: 0; /* Menghapus padding */
+}
+.header__cart a {
+    text-decoration: none; /* Menghapus garis bawah pada link */
+    color: black; /* Warna teks */
 }
 
-.sewa-semua:hover {
-    background-color: #218838; /* Warna hijau gelap saat hover */
+.header__cart a:hover {
+    color: black; /* Mengubah warna saat hover */
 }

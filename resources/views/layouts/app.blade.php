@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" type="image/png" href="{{ asset('app/img/logo_only.svg') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <title>@yield('title')</title>
 
@@ -25,7 +26,6 @@
     <link rel="stylesheet" href="{{ asset('app/css/owl.carousel.min.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('app/css/slicknav.min.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('app/css/style.css') }}" type="text/css" />
-
 </head>
     
 <body>
@@ -64,10 +64,10 @@
         </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61567082948597&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+            <a href="https://x.com/nadindypoi?t=mSkT3vWtM28oxcnRCQS_gw&s=09"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/weventura.ofc?igsh=MWxod3kxM3NqbjVnZQ=="><i class="fa fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@wibiannn?_t=8rUCWAnFEdJ&_r=1"><i class="fa fa-tiktok"></i></a>
         </div>
         <div class="humberger__menu__contact">
             <ul>
@@ -94,10 +94,10 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
                             <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61567082948597&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+                                <a href="https://x.com/nadindypoi?t=mSkT3vWtM28oxcnRCQS_gw&s=09"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/weventura.ofc?igsh=MWxod3kxM3NqbjVnZQ=="><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@wibiannn?_t=8rUCWAnFEdJ&_r=1"><i class="fa fa-tiktok"></i></a>
                             </div>
                             <div class="header__top__right__auth">
 
@@ -150,8 +150,8 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><a href="{{ route('cart.index') }}"><i class="fa fa-shopping-bag"></i> <span>{{ count(session()->get('cart', [])) }}</span></a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
                         </div>
                         <ul>
                             <li>Address: Jl. Tanimbar nomor 22</li>
-                            <li>Phone: +62 82245509682</li>
+                            <li><a href="https://wa.me/6282245509682">Phone: +62 82245509682</a></li>
                             <li>Email: weventura@gmail.com</li>
                         </ul>
                     </div>

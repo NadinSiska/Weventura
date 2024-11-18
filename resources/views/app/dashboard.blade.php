@@ -64,31 +64,31 @@
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="app/img/categories/cat-1.png"
-                            style="background-color: rgb(227, 236, 225); padding:30px">
+                            style="background-color: #f0f0f0; padding:30px">
                             <h5><a href="#">Nesting</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="app/img/categories/cat-2.png"
-                            style="background-color: rgb(227, 236, 225); padding:30px">
+                            style="background-color: #f0f0f0; padding:30px">
                             <h5><a href="#">Sepatu Outdoor</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="app/img/categories/cat-3.png"
-                            style="background-color: rgb(227, 236, 225); padding:30px">
+                            style="background-color: #f0f0f0; padding:30px">
                             <h5><a href="#">Carrier</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="app/img/categories/cat-4.png"
-                            style="background-color: rgb(227, 236, 225); padding:30px">
+                            style="background-color: #f0f0f0; padding:30px">
                             <h5><a href="#">Tenda</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="app/img/categories/cat-5.png "
-                            style="background-color: rgb(227, 236, 225); padding:30px">
+                            style="background-color: #f0f0f0; padding:30px">
                             <h5><a href="#">Trekking Pole</a></h5>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
             <div class="row featured__filter">
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-1.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-1.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-2.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-2.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-3.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-3.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
                     <div class="featured__item">
-                        <div v class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-4.jpg">
+                        <div v class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-4.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -205,7 +205,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-5.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-5.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -226,7 +226,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-6.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-6.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -247,7 +247,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-7.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-7.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -268,7 +268,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-8.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="app/img/featured/feature-8.png">
                             <ul class="featured__item__pic__hover">
                                 <li>
                                     <a href="#"><i class="fa fa-heart"></i></a>
@@ -308,8 +308,8 @@
                             <img src="app/img/review/profile-pic-1.jpg" alt="Foto Profil" class="rounded-circle" width="50">
                         </div>
                         <div class="review__info">
-                            <h5 class="review__name">Nama Pengguna 1</h5>
-                            <p class="review__date">Tanggal: 2023-10-01</p>
+                            <h5 class="review__name">Alex</h5>
+                            <p class="review__date">Tanggal: 2024-10-01</p>
                             <div class="rating mb-2">
                                 <span class="text-warning">&#9733;</span>
                                 <span class="text-warning">&#9733;</span>
@@ -326,8 +326,8 @@
                             <img src="app/img/review/profile-pic-2.jpg" alt="Foto Profil" class="rounded-circle" width="50">
                         </div>
                         <div class="review__info">
-                            <h5 class="review__name">Nama Pengguna 2</h5>
-                            <p class="review__date">Tanggal: 2023-10-01</p>
+                            <h5 class="review__name">Azalea</h5>
+                            <p class="review__date">Tanggal: 2024-12-21</p>
                             <div class="rating mb-2">
                                 <span class="text-warning">&#9733;</span>
                                 <span class="text-warning">&#9733;</span>
@@ -344,8 +344,8 @@
                             <img src="app/img/review/profile-pic-3.jpg" alt="Foto Profil" class="rounded-circle" width="50">
                         </div>
                         <div class="review__info">
-                            <h5 class="review__name">Nama Pengguna 3</h5>
-                            <p class="review__date">Tanggal: 2023-10-01</p>
+                            <h5 class="review__name">Gita Patricia</h5>
+                            <p class="review__date">Tanggal: 2023-12-11</p>
                             <div class="rating mb-2">
                                 <span class="text-warning">&#9733;</span>
                                 <span class="text-warning">&#9733;</span>
@@ -362,7 +362,7 @@
                             <img src="app/img/review/profile-pic-4.jpg" alt="Foto Profil" class="rounded-circle" width="50">
                         </div>
                         <div class="review__info">
-                            <h5 class="review__name">Nama Pengguna 4</h5>
+                            <h5 class="review__name">Kirana</h5>
                             <p class="review__date">Tanggal: 2023-10-01</p>
                             <div class="rating mb-2">
                                 <span class="text-warning">&#9733;</span>
@@ -380,8 +380,8 @@
                             <img src="app/img/review/profile-pic-5.jpg" alt="Foto Profil" class="rounded-circle" width="50">
                         </div>
                         <div class="review__info">
-                            <h5 class="review__name">Nama Pengguna 5</h5>
-                            <p class="review__date">Tanggal: 2023-10-01</p>
+                            <h5 class="review__name">Nadin</h5>
+                            <p class="review__date">Tanggal: 2024-12-01</p>
                             <div class="rating mb-2">
                                 <span class="text-warning">&#9733;</span>
                                 <span class="text-warning">&#9733;</span>

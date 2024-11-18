@@ -4,27 +4,6 @@
 
 @section('content')
 
-<style>
-    /* Tambahkan CSS di sini */
-    .gambar-container {
-        width: 80px;
-        height: 80px;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-
-    .gambar {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-</style>
-
 <div class="container">
     <h3 style="text-align: center; font-weight: bold;">Keranjang Sewa Alat</h3>
     <table class="table">
@@ -48,7 +27,7 @@
                 <td>Tenda ringan untuk 2-3 orang. Mudah dipasang.</td>
                 <td>Rp 100.000</td>
                 <td>
-                    <button type="button" class="btn btn-success">Sewa</button>
+                    <button type="button" class="btn btn-success-custom">Sewa</button>
                     <button type="button" class="btn btn-danger">Hapus</button>
                 </td>
             </tr>
@@ -62,7 +41,7 @@
                 <td>Kursi lipat nyaman, cocok untuk camping.</td>
                 <td>Rp 30.000</td>
                 <td>
-                    <button type="button" class="btn btn-success">Sewa</button>
+                    <button type="button" class="btn btn-success-custom">Sewa</button>
                     <button type="button" class="btn btn-danger">Hapus</button>
                 </td>
             </tr>
@@ -76,7 +55,7 @@
                 <td>Meja lipat praktis untuk piknik.</td>
                 <td>Rp 50.000</td>
                 <td>
-                    <button type="button" class="btn btn-success">Sewa</button>
+                    <button type="button" class="btn btn-success-custom">Sewa</button>
                     <button type="button" class="btn btn-danger">Hapus</button>
                 </td>
             </tr>
@@ -90,7 +69,7 @@
                 <td>Sleeping bag hangat untuk malam di luar.</td>
                 <td>Rp 70.000</td>
                 <td>
-                    <button type="button" class="btn btn-success">Sewa</button>
+                    <button type="button" class="btn btn-success-custom">Sewa</button>
                     <button type="button" class="btn btn-danger">Hapus</button>
                 </td>
             </tr>
