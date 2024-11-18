@@ -14,6 +14,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        $this->call([
+            KategoriSeeder::class,
+            BarangSeeder::class,
+            PenyewaanSeeder::class,
+            ItemSewaSeeder::class,
+        ]);
+        
         DB::table('users')->insert([
             'name' => 'Admin',
             'email' => 'admin@gmail.com',

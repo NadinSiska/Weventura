@@ -1,7 +1,10 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\BarangController;
+use App\Http\Controllers\Admin\PenyewaanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,10 +56,21 @@ Route::get('/pesan', function () {
     return view('app.pesan');
 })->name('pesan');
 
-//admin
-Route::get('admin/dashboard', function () {
-    return view('admin.dashboard');
-})->name('dashboard');
+// ============== ADMIN ================ //
+Route::middleware('auth')->group(function () {
+
+    Route::get('admin/dashboard', [AdminController::class, 'index'])->name('dashboard');
+    Route::get('admin/item', [BarangController::class, 'index'])->name('admin.item.index');
+
+    // ================ BOOOKING ==================== //
+    Route::get('admin/booking/waitinglist', [PenyewaanController::class, 'index'])->name('admin.waitinglist');
+    Route::get('admin/booking/booked', [PenyewaanController::class, 'booked'])->name('admin.booked');
+    Route::post('admin/booking/{id}/approve', [PenyewaanController::class, 'setStatusApproved'])->name('admin.booking.approve');
+    Route::post('admin/booking/{id}/reject', [PenyewaanController::class, 'setStatusRejected'])->name('admin.booking.reject');
+    Route::post('admin/booking/{id}/start-rental', [PenyewaanController::class, 'setStatusRented'])->name('admin.booking.start');
+    Route::post('admin/booking/{id}/mark-returned', [PenyewaanController::class, 'setStatusReturned'])->name('admin.booking.return');
+    Route::post('admin/booking/{id}/delete', [PenyewaanController::class, 'destroy'])->name('admin.booking.delete');
+});
 
 Route::get('admin/user', function () {
     return view('admin.user');
