@@ -158,13 +158,23 @@
                                     <img src="{{ asset('admin/images/avatar/1.png') }}" alt="user-image"
                                         class="img-fluid user-avtar">
                                     <div>
-                                        <h6 class="text-dark mb-0">Alexandra Della <span
+                                        <h6 class="text-dark mb-0">{{ Auth::user()->name }} <span
                                                 class="badge bg-soft-success text-success ms-1">PRO</span></h6>
-                                        <span class="fs-12 fw-medium text-muted">alex.della@outlook.com</span>
+                                        <span class="fs-12 fw-medium text-muted">{{ Auth::user()->email }}</span>
                                     </div>
                                 </div>
                             </div>
-
+                            <a class="dropdown-item" href="{{ route('profile.edit') }}">
+                                <i class="feather feather-settings me-2"></i> Profile Settings
+                            </a>
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                <i class="feather feather-log-out me-2"></i> Logout
+                            </a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                style="display: none;">
+                                @csrf
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -231,10 +241,7 @@
     <!-- vendors.min.js {always must need to be top} -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script>
-
-
-    </script>
+    <script></script>
     <script src="{{ asset('admin/vendors/js/daterangepicker.min.js') }}"></script>
     <script src="{{ asset('admin/vendors/js/apexcharts.min.js') }}"></script>
     <script src="{{ asset('admin/vendors/js/jquery.time-to.min.js') }} "></script>

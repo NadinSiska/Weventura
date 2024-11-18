@@ -5,6 +5,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\BarangController;
 use App\Http\Controllers\Admin\PenyewaanController;
+use App\Http\Controllers\KeranjangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,32 +18,9 @@ use App\Http\Controllers\Admin\PenyewaanController;
 |
 */
 
-/*
-//coba middleware dari cara fajar
-Route::get('/', function () {
-    return view('welcome');
-})->middleware('auth');
-
-Route::middleware('only_guest')->group(function() {
-    Route::get('login', [AuthController::class, 'login'])->name('login');
-    Route::get('login', [AuthController::class, 'authenticating']);
-    Route::get('register', [AuthController::class, 'register']);
-    Route::get('register', [AuthController::class, 'registerProcess']);
-});
-
-Route::middleware('auth')->group(function(){
-    Route::get('logout', [AuthController::class, 'logout']);
-    Route::get('dasboard', [DashboardController::class, 'index'])->middleware('only_admin');
-    Route::get('profile', [UserController::class, 'profile'])->middleware('only_client');
-    Route::get('books', [BookController::class,'index']);
-});
-
-//end
-*/
-
 Route::get('/', function () {
     return view('app.dashboard');
-})->name('dashboard');
+})->name('beranda');
 
 Route::get('/contact', function () {
     return view('app.contact');
@@ -87,3 +65,13 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+//Keranjang
+Route::prefix('keranjang')->group(function () {
+    Route::get('/', [KeranjangController::class, 'index'])->name('cart.index');
+Route::get('/{index}', [KeranjangController::class, 'show'])->name('show');
+Route::post('/', [KeranjangController::class, 'store'])->name('store');
+Route::put('/{index}', [KeranjangController::class, 'update'])->name('update');
+Route::delete('/{index}', [KeranjangController::class, 'destroy'])->name('destroy');
+Route::delete('/clear', [KeranjangController::class, 'clear'])->name('clear');
+});

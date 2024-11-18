@@ -6,6 +6,18 @@
 <!-- [ Main Content ] start -->
 <div class="main-content">
     <div class="row">
+        <div class="col-12">
+            <div class="card stretch stretch-full">
+                <div class="card-body">
+                    <h1 class="text-start">Welcome back, {{ Auth::user()->name }}</h1>
+                    <p class="fs-6 text-muted">Your personalized dashboard is ready for you.</p>
+                    <div class="text-end">
+                        <span class="fs-6">{{ now()->format('l, F j, Y') }}</span> |
+                        <span class="fs-6">{{ now()->format('h:i A') }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- [Mini Card] start -->
         <div class="col-12">
             <div class="card stretch stretch-full">
@@ -60,7 +72,7 @@
         </div>
         <!-- [Mini Card] end -->
         <!-- [Visitors Overview] start -->
-        <div class="col-xxl-12">
+        {{-- <div class="col-xxl-12">
             <div class="card stretch stretch-full">
                 <div class="card-header">
                     <h5 class="card-title">Visitors Overview</h5>
@@ -101,7 +113,7 @@
                     <div id="visitors-overview-statistics-chart"></div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- [Visitors Overview] end -->
 
         <!-- [Mini Card] start -->
