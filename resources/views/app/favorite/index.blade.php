@@ -1,11 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'Keranjang')
+@section('title', 'Favorite')
 
 @section('content')
-
 <div class="container">
-    <h3 style="text-align: center; font-weight: bold;">Keranjang Sewa Alat</h3>
+    <h3 style="text-align: center; font-weight: bold;">Barang yang Difavoritkan</h3>
     <table class="table">
         <thead>
             <tr>
@@ -27,12 +26,8 @@
                 <td>Tenda ringan untuk 2-3 orang. Mudah dipasang.</td>
                 <td>Rp 100.000</td>
                 <td>
-                    <button type="button" class="btn btn-success-custom">Sewa</button>
-                    <button type="button" class="btn btn-danger">Hapus</button>
-                </td>
-            </tr>
-            <tr>
-                <td>Kursi Lipat</td>
+                    <button type="button" class="btn btn-danger">Hapus dari Favorit</button>
+
                 <td>
                     <div class="gambar-container">
                         <img src="app/img/keranjang/kursi.jpg" alt="Kursi Lipat" class="gambar">
@@ -41,22 +36,20 @@
                 <td>Kursi lipat nyaman, cocok untuk camping.</td>
                 <td>Rp 30.000</td>
                 <td>
-                    <button type="button" class="btn btn-success-custom">Sewa</button>
-                    <button type="button" class="btn btn-danger">Hapus</button>
+                    <button type="button" class="btn btn-danger">Hapus dari Favorit</button>
                 </td>
             </tr>
             <tr>
                 <td>Meja Lipat</td>
                 <td>
                     <div class="gambar-container">
-                        <img src="app/img/keranjang/meja.jpg" alt="Meja Lipat" class="gambar">
+                        <img src="app/img/keranjang/meja.jpg" alt="Meja Lipat" class="gambar">php
                     </div>
                 </td>
                 <td>Meja lipat praktis untuk piknik.</td>
                 <td>Rp 50.000</td>
                 <td>
-                    <button type="button" class="btn btn-success-custom">Sewa</button>
-                    <button type="button" class="btn btn-danger">Hapus</button>
+                    <button type="button" class="btn btn-danger">Hapus dari Favorit</button>
                 </td>
             </tr>
             <tr>
@@ -65,20 +58,14 @@
                     <div class="gambar-container">
                         <img src="app/img/keranjang/sleepingbag.jpg" alt="Sleeping Bag" class="gambar">
                     </div>
-                </td>
+                </td> 
                 <td>Sleeping bag hangat untuk malam di luar.</td>
                 <td>Rp 70.000</td>
                 <td>
-                    <button type="button" class="btn btn-success-custom">Sewa</button>
-                    <button type="button" class="btn btn-danger">Hapus</button>
+                    <button type="button" class="btn btn-danger">Hapus dari Favorit</button>
                 </td>
             </tr>
         </tbody>
     </table>
-    <h5 style="font-weight: bold;">Total Sewa: Rp 250.000</h5>
-    <button class="btn btn-primary sewa-semua my-4">Sewa Barang yang Dipilih</button>
 </div>
-
-<script src="profile.js"></script>
-
 @endsection

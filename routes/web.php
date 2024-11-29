@@ -68,10 +68,32 @@ require __DIR__ . '/auth.php';
 
 //Keranjang
 Route::prefix('keranjang')->group(function () {
-    Route::get('/', [KeranjangController::class, 'index'])->name('cart.index');
+Route::get('/', [KeranjangController::class, 'index'])->name('cart.index');
 Route::get('/{index}', [KeranjangController::class, 'show'])->name('show');
 Route::post('/', [KeranjangController::class, 'store'])->name('store');
 Route::put('/{index}', [KeranjangController::class, 'update'])->name('update');
 Route::delete('/{index}', [KeranjangController::class, 'destroy'])->name('destroy');
 Route::delete('/clear', [KeranjangController::class, 'clear'])->name('clear');
+});
+
+
+//Favorite
+use App\Http\Controllers\FavoriteController;
+
+// Rute untuk menampilkan halaman favorit
+Route::get('/favorites', [FavoriteController::class, 'index'])->name('favorite.index');
+
+// Rute untuk menambahkan item favorit
+Route::post('/favorites', [FavoriteController::class, 'store'])->name('favorites.store');
+
+// Rute untuk menghapus item dari favorit
+Route::delete('/favorites/{index}', [FavoriteController::class, 'destroy'])->name('favorites.destroy');
+
+// Rute untuk mengosongkan semua item favorit
+Route::delete('/favorites/clear', [FavoriteController::class, 'clear'])->name('favorites.clear');
+
+//profile
+Route::middleware(['auth'])->group(function () {
+    Route::get('/profile', [ProfileController::class, 'show'])->name('profile.show'); // Menampilkan profil
+    Route::post('/profile', [ProfileController::class, 'update'])->name('profile.update'); // Mengupdate profil
 });

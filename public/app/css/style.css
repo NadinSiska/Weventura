@@ -2739,6 +2739,16 @@ ol {
 	float: right;
 }
 
+/* Mengatur tampilan tautan dalam daftar */
+ul li a {
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    color: black; /* Mengatur warna teks menjadi biru */
+}
+
+ul li a:hover {
+    color: #60be75; /* Mengubah warna saat hover (opsional) */
+}
+
 /*---------------------
   Contact
 -----------------------*/
@@ -3658,7 +3668,158 @@ ol {
     text-decoration: none; /* Menghapus garis bawah pada link */
     color: black; /* Warna teks */
 }
-
-.header__cart a:hover {
-    color: black; /* Mengubah warna saat hover */
+.header__cart a:hover i {
+    color: #60be75; /* Mengubah warna ikon saat hover */
 }
+.header__cart a:active i {
+    color: #60be75; /* Mengubah warna ikon saat diklik */
+}
+.header__cart a:hover {
+    color: #60be75; /* Mengubah warna saat hover */
+}
+.header__cart li {
+    display: inline-block; /* Menyusun item dalam satu baris */
+    margin-right: 15px; /* Memberikan jarak antar item */
+}
+.header__cart li:last-child {
+    margin-right: 0; /* Menghapus margin pada item terakhir */
+}
+
+/*---------------------
+  Favorit
+-----------------------*/
+.gambar-container {
+    width: 80px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 80px; /* Sesuaikan ukuran sesuai kebutuhan */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; /* Opsional: menambahkan border */
+    border-radius: 5px; /* Opsional: menambahkan border radius */
+}
+
+.gambar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Agar gambar tetap proporsional tanpa terdistorsi */
+    object-position: center; /* Pusatkan gambar */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Warna merah untuk tombol hapus */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghapus border default */
+    padding: 8px 12px; /* Padding tombol */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    cursor: pointer; /* Mengubah kursor saat hover */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Warna lebih gelap saat hover */
+}
+
+/*---------------------
+  Profile Pengguna 
+-----------------------*/
+.profile-card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.profile-info ul {
+	list-style-type: none; /* Menghapus bullet dari daftar */
+	padding: 0; /* Menghapus padding */
+}
+.profile-info li {
+	margin-bottom: 10px; /* Memberikan jarak antar item */
+}
+.profile-info a {
+	text-decoration: none; /* Menghapus garis bawah pada tautan */
+	color: blue; /* Mengatur warna tautan */
+}
+.profile-info a:hover {
+	color: darkblue; /* Mengubah warna saat hover */
+}
+
+/*---------------------
+  Halaman Profile 
+-----------------------*/
+.profile-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #8e44ad;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+.username {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #732d91;
+}
+
+.edit-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}	

@@ -144,11 +144,11 @@
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
                     </nav>
-                </div>
+                </div> 
                 <div class="col-lg-3">
                     <div class="header__cart">
                         <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                            <li><a href="{{ route('favorite.index') }}"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><a href="{{ route('cart.index') }}"><i class="fa fa-shopping-bag"></i> <span>{{ count(session()->get('cart', [])) }}</span></a></li>
                             <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
                         </ul>
@@ -176,7 +176,7 @@
                         <ul>
                             <li>Address: Jl. Tanimbar nomor 22</li>
                             <li><a href="https://wa.me/6282245509682">Phone: +62 82245509682</a></li>
-                            <li>Email: weventura@gmail.com</li>
+                            <li>Email: weventuraa@gmail.com</li>
                         </ul>
                     </div>
                 </div>
@@ -210,11 +210,11 @@
                             <input type="text" placeholder="Enter your mail" />
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <div class="header__top__right__social">
+                            <a href="https://www.facebook.com/profile.php?id=61567082948597&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+                            <a href="https://x.com/nadindypoi?t=mSkT3vWtM28oxcnRCQS_gw&s=09"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/weventura.ofc?igsh=MWxod3kxM3NqbjVnZQ=="><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@wibiannn?_t=8rUCWAnFEdJ&_r=1"><i class="fa fa-tiktok"></i></a>
                         </div>
                     </div>
                 </div>
